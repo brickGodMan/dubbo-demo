@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.master",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.qiancy.dubbo.demo.account.config.DynamicDatasourceConfig",
+      "sourceMethod": "masterDataSource()"
+    },
+    {
+      "name": "spring.datasource.slave",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.qiancy.dubbo.demo.account.config.DynamicDatasourceConfig",
+      "sourceMethod": "slaveDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
